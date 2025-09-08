@@ -1,7 +1,7 @@
 import QtQuick 2.7
 import QtQuick.Controls 2.2
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Themes 1.3
 import io.thp.pyotherside 1.3
 import "./constants.js" as Constants
 
@@ -129,7 +129,7 @@ OpenButton{
     bottomMargin: units.gu(1.5)
   }
   width: units.gu(16)
-  colorBut: UbuntuColors.green
+  colorBut: LomiriColors.green
   colorButText: "white"
   iconOffset: true
   iconName: "document-save"

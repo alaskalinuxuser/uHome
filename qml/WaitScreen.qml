@@ -1,7 +1,7 @@
 /*  CalculatorButton.qml */
 import QtQuick 2.7
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Themes 1.3
 
 Item {
     id: root

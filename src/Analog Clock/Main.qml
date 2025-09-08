@@ -8,10 +8,10 @@ Item {
     anchors.fill : parent
     anchors.margins : units.gu(1)
     property int index: -1
-    property var settings: ["#00FFFFFF", "#FFFFFF", "Ubuntu.svg", "None.svg"]
+    property var settings: ["#00FFFFFF", "#FFFFFF", "Lomiri.svg", "None.svg"]
     property string backgroundcolor: "#ffffff"
     property string handcolor: "#ffffff"
-    property string arrowsource: "Ubuntu.svg"
+    property string arrowsource: "Lomiri.svg"
     property string glasssource: "None.svg"
     onSettingsChanged:{
         if (settings.length>0) backgroundcolor=settings[0]

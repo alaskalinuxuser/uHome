@@ -1,17 +1,17 @@
 /*  CalculatorButton.qml */
 import QtQuick 2.7
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Themes 1.3
 import QtGraphicalEffects 1.0
 
-UbuntuShape {
+LomiriShape {
     signal clicked
     signal pressed
     signal released
     property string colorBut: theme.palette.normal.base
     property string colorButText: theme.palette.selected.baseText
     property string radiusBorder:  "medium"
-    property var    aspectBorder:  UbuntuShape.DropShadow
+    property var    aspectBorder:  LomiriShape.DropShadow
     property alias  iconName: icon.name
     property string  iconSource: ""
     property bool   imgColored: false

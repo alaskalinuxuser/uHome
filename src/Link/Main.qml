@@ -1,7 +1,7 @@
 //start_size: 1x1
 import QtQuick 2.5
 import QtGraphicalEffects 1.0
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 
 Item {
     id: root

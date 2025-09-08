@@ -1,7 +1,7 @@
 /*  CalculatorButton.qml */
 import QtQuick 2.7
-import Ubuntu.Components 1.3
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components 1.3
+import Lomiri.Components.Themes 1.3
 
 Item {
     id: root
@@ -68,7 +68,7 @@ Item {
         id: okbut
         visible: false
         text: root.oktext
-        color: UbuntuColors.green
+        color: LomiriColors.green
         anchors{
             left: parent.left
             leftMargin: units.gu(2)

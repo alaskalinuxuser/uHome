@@ -1,9 +1,9 @@
 import QtQuick 2.7
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import QtQuick.Layouts 1.3
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components.Themes 1.3
 import io.thp.pyotherside 1.3
-import Ubuntu.Content 1.3
+import Lomiri.Content 1.3
 import QtGraphicalEffects 1.0
 
 Page {
@@ -262,7 +262,7 @@ Page {
     bottomMargin: units.gu(1.5)
   }
   width: units.gu(16)
-  colorBut: UbuntuColors.green
+  colorBut: LomiriColors.green
   colorButText: "white"
   iconOffset: true
   iconName: "document-save"

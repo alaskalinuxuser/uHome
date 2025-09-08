@@ -14,14 +14,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 import QtQuick 2.7
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.3
 import Qt.labs.settings 1.0
 import io.thp.pyotherside 1.3
-import Ubuntu.Components.Themes 1.3
+import Lomiri.Components.Themes 1.3
 import Qt.labs.platform 1.0
-import Ubuntu.Content 1.3
+import Lomiri.Content 1.3
 
 import QtQuick.Controls.Suru 2.2
 import "./constants.js" as Constants
@@ -472,11 +472,11 @@ function setCurrentTheme() {
         Suru.theme = undefined;
         break;
       case Constants.Theme.SuruLight:
-        theme.name = "Ubuntu.Components.Themes.Ambiance";
+        theme.name = "Lomiri.Components.Themes.Ambiance";
         Suru.theme = Suru.Light;
         break;
       case Constants.Theme.SuruDark:
-        theme.name = "Ubuntu.Components.Themes.SuruDark";
+        theme.name = "Lomiri.Components.Themes.SuruDark";
         Suru.theme = Suru.Dark;
         break;
     }
